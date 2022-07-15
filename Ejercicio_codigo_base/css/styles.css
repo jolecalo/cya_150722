@@ -1,0 +1,66 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    word-spacing: 10px;
+}
+h1{
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: blue;
+    text-align: center;
+}
+h1::before{
+    content: '\02388';
+}
+h1::after{
+    content: '\02388';
+}
+#title, #last {
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+#title::first-letter{
+    font-size: 40px;
+}
+a:hover{
+    color: purple;
+}
+a:visited{
+    color: orange;
+}
+input, button {
+    font-size: 20px;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+}
+input{
+    border-color: blueviolet;    
+}
+input::placeholder{
+    color: blueviolet;
+}
+input:focus::placeholder{
+    color: white;
+    background: blue;
+}
+button{
+    background: blueviolet;
+    color: white;
+    border: 0ch;
+}
+button:hover{
+    background: orange;
+}
+h2:nth-child(2n+2){
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 30px;
+}
+h3:nth-last-of-type(2n){
+    color: orange;
+}
+
